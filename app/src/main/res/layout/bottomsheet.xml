@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/primary_gradient_background"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/refresh_btmsheet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_refresh"
+        android:drawablePadding="12dp"
+        android:fontFamily="@font/comfortaa_regular"
+        android:gravity="center_vertical"
+        android:padding="8dp"
+        android:text="Refresh"
+        android:textColor="#FFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:transitionName="roboto"
+        tools:ignore="UnusedAttribute" />
+
+    <TextView
+        android:id="@+id/share_btmsheet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_share"
+        android:drawablePadding="12dp"
+        android:fontFamily="@font/comfortaa_regular"
+        android:gravity="center_vertical"
+        android:padding="8dp"
+        android:text="Share"
+        android:textColor="#FFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:transitionName="roboto"
+        tools:ignore="UnusedAttribute" />
+
+
+    <TextView
+        android:id="@+id/fav_btmsheet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_fav"
+        android:drawablePadding="12dp"
+        android:fontFamily="@font/comfortaa_regular"
+        android:gravity="center_vertical"
+        android:padding="8dp"
+        android:text="Favorite"
+        android:textColor="#FFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:transitionName="roboto"
+        tools:ignore="UnusedAttribute" />
+
+
+</LinearLayout>
